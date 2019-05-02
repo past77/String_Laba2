@@ -1,0 +1,7 @@
+Following Java fcuc. program for Java is Java.  to Java Java Java Java Java.
+search for the java Java Java. given word in Java file. given word in file.
+As an alternative, we could use the Scanner class to achieve the same functionality as with BufferedReader.
+However, there are significant differences between these two classes which can make them either more or less convenient for us, depending on our use case:
+BufferedReader is synchronized (thread-safe) while Scanner is not.
+Scanner can parse primitive types and strings using regular expressions.
+BufferedReader allows for changing the size of the buffer while Scanner has a fixed buffer size.
