@@ -1,1 +1,0 @@
-Following Java program is to search for the given word in file.

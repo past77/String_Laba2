@@ -1,9 +1,10 @@
-package SearchWords;
+package SearchWords.Service;
+import SearchWords.Show;
 
 /**
  * Created by ppolozhe on 5/2/19.
  */
-public class PrintBadResult implements Show{
+public class PrintBadResult implements Show {
     private int num;
     private String normInput;
 
@@ -11,7 +12,7 @@ public class PrintBadResult implements Show{
         this.normInput = normInput;
         this.num = num;
     }
-    public  void Show(){
+    public  void show(){
         System.out.println("The word \"" + normInput + "\" is not present in " + num + " sentences");
     }
 }

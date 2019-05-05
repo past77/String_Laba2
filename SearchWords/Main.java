@@ -12,6 +12,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
         MainAlgorithm algorithm = new MainAlgorithm();
         algorithm.setFilePath("/Users/ppolozhe/IdeaProjects/SearchWords/src/text.txt");
-        algorithm.Algo();
+        algorithm.algo();
     }
 }
