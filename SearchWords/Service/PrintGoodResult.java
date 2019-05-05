@@ -15,7 +15,7 @@ public class PrintGoodResult implements Show {
        this.count = count;
        this.num = num;
    }
-   public void Show() {
+   public void show() {
     System.out.println("The word \"" + normInput + "\" is present for " + count + " times in " + num + " sentence");
     }
 }

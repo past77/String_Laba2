@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 public class ReadInput {
     public ReadInput(){}
 
-    public String readInput(){
+    public String readInput() throws IOException {
         String str = "";
         BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter a line of words: ");
@@ -19,6 +19,7 @@ public class ReadInput {
         } catch (IOException ex) {
             System.out.println("Reading error");
         }
+        stdin.close();
         return str;
     }
 

@@ -1,10 +1,8 @@
 package SearchWords.Service;
 
-import SearchWords.Show;
-
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
+import SearchWords.Show;
 
 /**
  * Created by ppolozhe on 5/2/19.
@@ -22,7 +20,7 @@ public class SortWords implements Show {
     public  void addWords(){
         hashMap.put(input, count);
     }
-    public  void Show(){
+    public  void show(){
         for (Map.Entry<String, Integer> me : hashMap.entrySet()) {
             System.out.print("\nsorted array : \"" + me.getKey() + "\" - " + me.getValue()+ " \n");
         }

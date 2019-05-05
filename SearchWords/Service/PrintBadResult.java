@@ -1,5 +1,4 @@
 package SearchWords.Service;
-
 import SearchWords.Show;
 
 /**
@@ -13,7 +12,7 @@ public class PrintBadResult implements Show {
         this.normInput = normInput;
         this.num = num;
     }
-    public  void Show(){
+    public  void show(){
         System.out.println("The word \"" + normInput + "\" is not present in " + num + " sentences");
     }
 }

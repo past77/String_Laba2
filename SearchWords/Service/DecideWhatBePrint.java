@@ -1,5 +1,6 @@
 package SearchWords.Service;
 
+
 /**
  * Created by ppolozhe on 5/2/19.
  */
@@ -16,13 +17,13 @@ public class DecideWhatBePrint {
         this.num = num;
     }
 
-    public void Decided() {
+    public void decided() {
         if (count != 0) {
             pgr = new PrintGoodResult(normInput, count, num);
-            pgr.Show();
+            pgr.show();
         } else {
             pbr = new PrintBadResult(normInput, num);
-            pbr.Show();
+            pbr.show();
         }
     }
 }

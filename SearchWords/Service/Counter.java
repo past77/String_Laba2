@@ -1,7 +1,5 @@
 package SearchWords.Service;
 
-import java.util.Collections;
-
 /**
  * Created by ppolozhe on 5/2/19.
  */
@@ -13,7 +11,7 @@ public class Counter {
         this.count = count;
     }
 
-    public void CountWords(){
+    public void countWords(){
         counter += count;
     }
 
